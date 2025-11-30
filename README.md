@@ -15,4 +15,7 @@ Select a ticker symbol and open the stock summary page on gurufocus. Use Alt+Shi
 
 ### ChatGPT Atlas
 
-[Instructions for installing on ChatGPT Atlas]
+1. Download the extension files.
+2. Open ChatGPT Atlas and navigate to `atlas://extensions`.
+3. Enable "Developer mode" in the top right corner.
+4. Click "Load unpacked" and select the directory where you downloaded the extension.
