@@ -1,0 +1,1 @@
+Hello from Gemini! This file was created by the Gemini CLI agent.

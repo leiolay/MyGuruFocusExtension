@@ -1,0 +1,39 @@
+{
+    "manifest_version": 3,
+    "name": "GuruFocus Quick Search",
+    "version": "2.0",
+    "description": "Quickly search selected text on GuruFocus. Use Alt+Shift+G for a new tab or Alt+Shift+B for a background tab.",
+    "icons": {
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+    },
+    "permissions": [
+      "contextMenus",
+      "activeTab",
+      "scripting",
+      "notifications"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_title": "Search Selection on GuruFocus"
+    },
+    "commands": {
+      "gurufocus-search-shortcut": {
+        "suggested_key": {
+          "default": "Alt+Shift+G",
+          "mac": "Alt+Shift+G"
+        },
+        "description": "Search in new tab (foreground)"
+      },
+      "gurufocus-search-shortcut-background": {
+        "suggested_key": {
+          "default": "Alt+Shift+B",
+          "mac": "Alt+Shift+B"
+        },
+        "description": "Search in new tab (background)"
+      }
+    }
+  }
